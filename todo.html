@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./bootstrap.css" />
+    <link rel="stylesheet" href="./fontawesome-free-5.15.2-web/css/all.css" />
+
+    <title>Menu</title>
+  </head>
+  <body class="bg-secondary">
+    <section class="container my-2">
+      <h1 class="text-info font-weight-bold text-center text-uppercase">
+        Todoist📝
+      </h1>
+      <form action="" id="form">
+        <div class="row">
+          <div class="col-sm-10">
+            <input
+              type="text"
+              class="my-2 form-control bg-light"
+              id="input"
+              placeholder="add some task"
+            />
+          </div>
+          <div class="col-sm-2">
+            <button class="btn btn-success my-2">
+              <i class="fas fa-plus-circle"></i> addTask
+            </button>
+          </div>
+        </div>
+      </form>
+      <div id="alert" class="card">
+        <div class="card-body">
+          <ul class="list-group">
+            <h2 class="text-info">List of your tasks ⤵</h2>
+            <!-- <span><button class="btn btn-danger btn-sm float-right"></button></span> -->
+            <!-- <li class="list-group-item"><a>Homes </a></li>
+            <li class="list-group-item"><a>About</a></li>
+            <li class="list-group-item"><a>Service</a></li>
+            <li class="list-group-item"><a>Login</a></li>
+            <li class="list-group-item"><a>Register</a></li> -->
+          </ul>
+        </div>
+      </div>
+    </section>
+    <script src="./todo.js"></script>
+  </body>
+</html>
